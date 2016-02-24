@@ -1,0 +1,14 @@
+  ------
+  Introduction
+  ------
+  Robert Hook
+  ------
+  2016-02-24
+
+SimpleLRU
+
+   SimpleLRU provides a simple cache with a capped size, so that if you try to add more to the cache than it will
+   hold, the oldest item in the cache is ejected. There is also an extended variant cache where items will expire
+   from the cache after a certain time. These caches live in memory, and in process, so they are mainly intended for
+   use for such things as keeping a local copy of fetched resources that you may need again in the near future.
+ 
