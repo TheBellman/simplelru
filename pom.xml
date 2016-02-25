@@ -7,7 +7,7 @@
     <groupId>net.parttimepolymath.cache</groupId>
     <artifactId>SimpleLRU</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <name>SimpleLRU</name>
     <description>Simple least-recently-used cache.</description>
     <url>https://github.com/TheBellman/simplelru</url>

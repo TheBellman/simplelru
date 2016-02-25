@@ -32,7 +32,12 @@ This will result in a local web site that can be accessed via
 ```
 target/site/index.html
 ```
-**Note:** I will be working to get this into an artefact repository in the near future so that it can be simply declared as a dependency.
+**Note:** A current release version can be found in my private Artifactory at the URL below. There are instructions there for how to include this repository in your build cycle.
+
+```
+http://54.209.160.169:8081/artifactory/webapp/#/home
+```
+
 ## Use
 
 There are two cache implementations, *SimpleLRUCache* and *TimedLRUCache*, which at some point in the future I may refactor to share a common interface. Both of these are intended to be highly performant and thread safe, however it is up to you to manage the number of cache instances in your application.
