@@ -7,7 +7,7 @@
     <groupId>net.parttimepolymath.cache</groupId>
     <artifactId>SimpleLRU</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>SimpleLRU</name>
     <description>Simple least-recently-used cache.</description>
     <url>https://github.com/TheBellman/simplelru</url>
@@ -18,7 +18,7 @@
 
     <distributionManagement>
         <repository>
-            <id>release</id>
+            <id>central</id>
             <name>ip-172-31-6-67-releases</name>
             <url>http://54.209.160.169:8081/artifactory/libs-release-local</url>
         </repository>
