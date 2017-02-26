@@ -5,7 +5,7 @@ This project builds a JAR which can then be used within your projects.
 
 ## Building
 
-The following notes all assume that you have access to the command line and know what to do there, have a fairly recent version of Maven, and at least Java 7. The code will build with Java 8, but is pegged to Java 7 compliance. 
+The following notes all assume that you have access to the command line and know what to do there, have a fairly recent version of Maven, and at least Java 7. The code will build with Java 8, but is pegged to Java 7 compliance.
 
 To build the  JAR after checking out the project:
 
@@ -18,7 +18,7 @@ mvn clean package
 After a bit of grinding, the JAR should be available at
 
 ```
-target/SimpleLRU-1.0-SNAPSHOT.jar 
+target/SimpleLRU-1.0-SNAPSHOT.jar
 ```
 
 A site report can be built locally as well, which will provide you with JavaDoc and test coverage details:
@@ -35,7 +35,7 @@ target/site/index.html
 **Note:** A current release version can be found in my private Artifactory at the URL below. There are instructions there for how to include this repository in your build cycle.
 
 ```
-http://54.209.160.169:8081/artifactory/webapp/#/home
+http://ec2-52-56-175-37.eu-west-2.compute.amazonaws.com:8080/#welcome
 ```
 
 ## Use
@@ -53,7 +53,7 @@ you can then add to the cache by calling *put* (Note we are autoboxing the integ
 cache.put("MyKey", 123456);
 Integer myNum = cache.get("MyKey");
 ```
-Which is about all there is to it. Note that if the requested value is not in the cache, a *null* is returned. 
+Which is about all there is to it. Note that if the requested value is not in the cache, a *null* is returned.
 
 Refer to the JavaDoc to see the other methods on this class, which are provided should you need to manage the contents of the cache manually.
 
