@@ -7,7 +7,7 @@
     <groupId>net.parttimepolymath.cache</groupId>
     <artifactId>SimpleLRU</artifactId>
     <packaging>jar</packaging>
-    <version>1.3.1-SNAPSHOT</version>
+    <version>1.3.2</version>
     <name>SimpleLRU</name>
     <description>Simple least-recently-used cache.</description>
     <url>https://github.com/TheBellman/simplelru</url>
@@ -41,7 +41,7 @@
         <maven.build.timestamp.format>yyyyMMdd.HHmmss</maven.build.timestamp.format>
         <build.timestamp>${maven.build.timestamp}</build.timestamp>
         <site.encoding>UTF-8</site.encoding>
-        <compileSource>1.7</compileSource>
+        <compileSource>1.8</compileSource>
     </properties>
 
     <dependencies>
